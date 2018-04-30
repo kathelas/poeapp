@@ -42,8 +42,8 @@ public:
 	}
 
 
-	static constexpr int size = 78;
-	static constexpr int totalcurramount = 100;
+	static constexpr int size = 78; //size of currency pics (square / 78*78)
+	static constexpr int totalcurramount = 100; //rnd number / need to count relevant currencies
 private:
 	sf::Sprite sprite;
 	sf::Texture text;

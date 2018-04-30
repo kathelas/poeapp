@@ -1,5 +1,4 @@
 #include "Currency.h"
-#include <memory>
 
 auto LoadCurrency( Currency* allc )
 {
@@ -10,7 +9,7 @@ auto LoadCurrency( Currency* allc )
 	allc[2].MoveSprite( Currency::size * 2, 0 );
 }
 
-void Draw( Currency* curra, sf::RenderWindow& window )
+void DrawCurrency( Currency* curra, sf::RenderWindow& window )
 {
 	for( int i = 0; i < Currency::totalcurramount; i++ )
 	{
@@ -25,10 +24,9 @@ int main()
 {
 	sf::RenderWindow window( sf::VideoMode( 800, 600 ), "POECurrencyTracker" );
 
-	Currency allc[Currency::totalcurramount];
-	LoadCurrency( allc );
-	
+	Currency allc[Currency::totalcurramount]; //all currency items
 
+	LoadCurrency( allc ); //loading all the textures/sprites
 
 	while( window.isOpen() )
 	{
@@ -40,8 +38,12 @@ int main()
 		}
 
 		window.clear();
+		//start of drawing
+		DrawCurrency( allc, window );
 
-		Draw( allc, window );
+
+
+		//end of drawing
 		window.display();
 	}
 
