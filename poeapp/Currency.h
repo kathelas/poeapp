@@ -82,11 +82,21 @@ private:
 		case Type::alt:
 			return "Currency\\alt.png";
 		case Type::annul:
-			return "Currency\\acs.png";
+			return "Currency\\annul.png";
+		case Type::bauble:
+			return "Currency\\bauble.png";
+		case Type::bless:
+			return "Currency\\bless.png";
+		case Type::chance:
+			return "Currency\\chance.png";
+		case Type::chrom:
+			return "Currency\\chrom.png";
 		case Type::div:
 			return "Currency\\div.png";
 		case Type::exa:
 			return "Currency\\exa.png";
+		case Type::fus:
+			return "Currency\\fus.png";
 		}
 	}
 
