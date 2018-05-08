@@ -24,25 +24,32 @@
   <ItemGroup>
     <ClInclude Include="Currency.h" />
     <ClInclude Include="poeappwindow.h" />
+    <ClInclude Include="Settings.h" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="currency\acs.png" />
-    <Image Include="currency\alchemy.png" />
-    <Image Include="currency\annulment.png" />
-    <Image Include="currency\blessed.png" />
+    <Image Include="currency\alch.png" />
+    <Image Include="currency\alt.png" />
+    <Image Include="currency\annul.png" />
+    <Image Include="currency\bauble.png" />
+    <Image Include="currency\bless.png" />
+    <Image Include="currency\chance.png" />
     <Image Include="currency\chaos.png" />
-    <Image Include="currency\chisel.png" />
-    <Image Include="currency\divine.png" />
-    <Image Include="currency\exalted.png" />
-    <Image Include="currency\fusing.png" />
+    <Image Include="currency\chis.png" />
+    <Image Include="currency\chrom.png" />
+    <Image Include="currency\div.png" />
+    <Image Include="currency\exa.png" />
+    <Image Include="currency\fus.png" />
     <Image Include="currency\gcp.png" />
     <Image Include="currency\jcs.png" />
+    <Image Include="currency\jew.png" />
     <Image Include="currency\mcs.png" />
-    <Image Include="currency\mirror.png" />
+    <Image Include="currency\mirror-unused.png" />
     <Image Include="currency\regal.png" />
     <Image Include="currency\regret.png" />
-    <Image Include="currency\scouring.png" />
-    <Image Include="currency\stackeddeck.png" />
+    <Image Include="currency\scour.png" />
+    <Image Include="currency\silv.png" />
+    <Image Include="currency\stackeddeck-unused.png" />
     <Image Include="currency\vaal.png" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

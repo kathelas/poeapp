@@ -29,33 +29,15 @@
     <ClInclude Include="Currency.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Settings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Image Include="currency\acs.png">
       <Filter>Currency</Filter>
     </Image>
-    <Image Include="currency\alchemy.png">
-      <Filter>Currency</Filter>
-    </Image>
-    <Image Include="currency\annulment.png">
-      <Filter>Currency</Filter>
-    </Image>
-    <Image Include="currency\blessed.png">
-      <Filter>Currency</Filter>
-    </Image>
     <Image Include="currency\chaos.png">
-      <Filter>Currency</Filter>
-    </Image>
-    <Image Include="currency\chisel.png">
-      <Filter>Currency</Filter>
-    </Image>
-    <Image Include="currency\divine.png">
-      <Filter>Currency</Filter>
-    </Image>
-    <Image Include="currency\exalted.png">
-      <Filter>Currency</Filter>
-    </Image>
-    <Image Include="currency\fusing.png">
       <Filter>Currency</Filter>
     </Image>
     <Image Include="currency\gcp.png">
@@ -67,22 +49,61 @@
     <Image Include="currency\mcs.png">
       <Filter>Currency</Filter>
     </Image>
-    <Image Include="currency\mirror.png">
-      <Filter>Currency</Filter>
-    </Image>
     <Image Include="currency\regal.png">
       <Filter>Currency</Filter>
     </Image>
     <Image Include="currency\regret.png">
       <Filter>Currency</Filter>
     </Image>
-    <Image Include="currency\scouring.png">
-      <Filter>Currency</Filter>
-    </Image>
-    <Image Include="currency\stackeddeck.png">
-      <Filter>Currency</Filter>
-    </Image>
     <Image Include="currency\vaal.png">
+      <Filter>Currency</Filter>
+    </Image>
+    <Image Include="currency\mirror-unused.png">
+      <Filter>Currency</Filter>
+    </Image>
+    <Image Include="currency\stackeddeck-unused.png">
+      <Filter>Currency</Filter>
+    </Image>
+    <Image Include="currency\alt.png">
+      <Filter>Currency</Filter>
+    </Image>
+    <Image Include="currency\bauble.png">
+      <Filter>Currency</Filter>
+    </Image>
+    <Image Include="currency\chance.png">
+      <Filter>Currency</Filter>
+    </Image>
+    <Image Include="currency\chrom.png">
+      <Filter>Currency</Filter>
+    </Image>
+    <Image Include="currency\jew.png">
+      <Filter>Currency</Filter>
+    </Image>
+    <Image Include="currency\alch.png">
+      <Filter>Currency</Filter>
+    </Image>
+    <Image Include="currency\annul.png">
+      <Filter>Currency</Filter>
+    </Image>
+    <Image Include="currency\bless.png">
+      <Filter>Currency</Filter>
+    </Image>
+    <Image Include="currency\chis.png">
+      <Filter>Currency</Filter>
+    </Image>
+    <Image Include="currency\div.png">
+      <Filter>Currency</Filter>
+    </Image>
+    <Image Include="currency\exa.png">
+      <Filter>Currency</Filter>
+    </Image>
+    <Image Include="currency\fus.png">
+      <Filter>Currency</Filter>
+    </Image>
+    <Image Include="currency\scour.png">
+      <Filter>Currency</Filter>
+    </Image>
+    <Image Include="currency\silv.png">
       <Filter>Currency</Filter>
     </Image>
   </ItemGroup>
